@@ -1,13 +1,16 @@
 import turtle
- 
+
+# Adjusted starting position upward by 2.5 cm (approximately 90 pixels)
 def draw_flower():
     turtle.penup()
+    turtle.setpos(0, -30)  # New position after upward adjustment
+    turtle.pendown()
     turtle.left(90)
     turtle.fd(200)
-    turtle.pendown()
     turtle.right(90)
-    
+
 # Flower base
+draw_flower()
 turtle.fillcolor("red")
 turtle.begin_fill()
 turtle.circle(10, 180)
@@ -35,7 +38,7 @@ turtle.circle(150, 80)
 turtle.left(50)
 turtle.circle(150, 90)
 turtle.end_fill()
- 
+
 # Petal 1
 turtle.left(150)
 turtle.circle(-90, 70)
@@ -44,13 +47,13 @@ turtle.circle(75, 105)
 turtle.setheading(60)
 turtle.circle(80, 98)
 turtle.circle(-90, 40)
- 
+
 # Petal 2
 turtle.left(180)
 turtle.circle(90, 40)
 turtle.circle(-80, 98)
 turtle.setheading(-83)
- 
+
 # Leaves 1
 turtle.fd(30)
 turtle.left(90)
@@ -68,7 +71,7 @@ turtle.left(180)
 turtle.fd(85)
 turtle.left(90)
 turtle.fd(80)
- 
+
 # Leaves 2
 turtle.right(90)
 turtle.right(45)
@@ -84,8 +87,5 @@ turtle.left(180)
 turtle.fd(60)
 turtle.right(90)
 turtle.circle(200, 60)
- 
+
 turtle.done()
- 
-# Call the function to draw the flower
-draw_flower()
