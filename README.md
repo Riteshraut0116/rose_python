@@ -49,7 +49,9 @@ Completion: The drawing window remains open with turtle.done() so the user can a
 ## ✍️ Author
 
 - **Ritesh Raut**
--*Programmer Analyst, Cognizant*
+- *Programmer Analyst, Cognizant*
+
+🌹 Code in Bloom — Draw a Rose with Python Turtle! 🐢🎨
 
 ---
 
